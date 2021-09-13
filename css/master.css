@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina&display=swap');
+
+body {
+  font-family: 'Karantina', cursive;
+  font-size: 25px;
+  background-image: url('../images/LZbackground.png');
+  background-size: 2400px;;
+}
+
+
+.container {
+  width: 95%;
+  margin: auto;
+  padding: 1em;
+  height: 100vh;
+}
+
+.back a{
+color: red;
+border: 2px solid white;
+padding: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+  margin: 1%;
+}
+
+.orange{
+  color: orange;
+}
+
+.lightgreen {
+  color: lightgreen;
+}
+
+.lightblue{
+  color: lightblue;
+}
+
+.brown{
+  color: #987654;
+}
+
+.container-image-1 {
+  position: relative;
+  text-align: center;
+  text-shadow: 1px 1px black
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 5px solid black;
+  padding: 1px;
+  text-shadow: 2px 2px black;
+}
+
+.square-image {
+  width: 100%;
+  border-radius: 100%;
+  box-shadow: 8px 8px black
+}
+
+.big-col {
+  flex: 40%;
+  margin: 1%;
+  color: white;
+  text-align: center;
+}
+
+.menu-title {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px black
+}
+
+.main-title {
+  background-color: black;
+  width: 60%;
+  margin: 0 auto 1em auto;
+  border: 3px solid red;
+  border-radius: 20px;
+  text-align: center;
+  color: red
+}
+
+
+#lz-title {
+  text-align: center;
+  background: red;
+  border: 5px solid black;
+  padding: 5px;
+}
+
+#hr-1 {
+  width: 80%;
+}
